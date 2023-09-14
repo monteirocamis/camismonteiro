@@ -4,7 +4,8 @@
 # Cache files
 .npm
 .eslintcache
-
+.next
+/next
 # Environment variable files
 .env
 .env.build

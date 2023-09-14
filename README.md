@@ -46,6 +46,7 @@ Deploy de build automático e gratuito para visualização do projeto pela Verce
 * [React e Typescript](http:///) - O framework web usado
 * [Next]() - Developmnt environment
 * [Tailwind]() - Usada para gerar componentes pré estilizados
+* [tsparticles]() - Usada para gerar componentes animados
 
 
 ## ✒️ Autores
