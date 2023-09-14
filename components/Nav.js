@@ -14,10 +14,10 @@ import { useRouter } from "next/router";
 // nav data
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
+  { name: "about", path: "/about", icon: <HiUser /> },
   { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
   { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiRectangleGroup /> },
 
-{ name: "about", path: "/about", icon: <HiUser /> },
   // { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   // { name: "work", path: "/work", icon: <HiViewColumns /> },
 // {

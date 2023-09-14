@@ -37,51 +37,74 @@ const aboutData = [
       },
     ],
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
+
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Front end Developer - Poliedro",
+        stage: "Feb 2023 - Aug 2023 ",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Intern - Avanade",
+        stage: "2022 - 2023",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Web Developer - Codivas",
+        stage: "2020 - 2022",
+      },
+      {
+        title: "Web development Instructor - Labenu",
+        stage: "Aug 2021 - Sep 2022",
+      },
+     
+      {
+        title: "Javascript Course Instructor - Reprograma",
+        stage: "Aug 2023 - Sep 2023",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "education",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
+        title: "Computer Science , Bachelor - Anhembi Morumbi",
+        stage: "2021 - 2024",
+      },
+      {
+        title: "Web Development - FIAP,  São Paulo, SP",
         stage: "2011",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
+        title: "Front end Developer - Reprograma, São Paulo, SP",
         stage: "2006",
       },
+    ],
+  },
+  {
+    title: "others",
+    info: [
+      {
+        title: "Speaker - Front in Vale ",
+        stage: "2023",
+      },
+      {
+        title: "Speaker - Women in 3D printing - São Paulo ",
+        stage: "2023",
+      },
+      {
+        title: "Exibition - Fashion 3D printing at Campus Party Brasil - São Paulo ",
+        stage: "2023",
+      },
+      {
+        title: "Advanced Game development Bursary - Bow Valew College & CEA",
+        stage: "2022",
+      },
+      {
+        title: "SESI moda sustentável - Sustainable Fashion design",
+        stage: "2011",
+      },
+   
     ],
   },
 ];
@@ -137,7 +160,7 @@ const About = () => {
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             3 years ago, I began freelancing as a developer. Since then , I've
-            done remote work for agencies, counculted for startups, and
+            done remote work for agencies, counsulted for startups,mentored lots of women in tecnology, and
             collaborated on digital products for business and consumer use.
           </motion.p>
 
