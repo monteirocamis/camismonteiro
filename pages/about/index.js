@@ -122,7 +122,7 @@ const About = () => {
 
   return (
     //
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left  ">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
@@ -148,8 +148,8 @@ const About = () => {
             exit="hidden "
             className="h2"
           >
-            Captivating <span className="text-accent"> stories</span> birth
-            magnificent designs.
+            Transforming ideas <br/> into <span className="text-accent"> reality</span> 
+     
           </motion.h2>
 
           <motion.p
@@ -221,9 +221,9 @@ const About = () => {
                   key={itemIndex}
                   className={`${
                     index === itemIndex &&
-                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
+                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300 "
                   }
-                 cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                 cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 `}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
@@ -234,7 +234,7 @@ const About = () => {
 
           {/*  conteudo tabs */}
           {/* removi bg-pink-400/10 */}
-          <div className=" py-2 xl:py-6 flex  flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start ">
+          <div className=" py-2 xl:py-6 flex  flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start mb-20">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div

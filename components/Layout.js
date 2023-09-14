@@ -12,7 +12,7 @@ weight : ['100' , '200', '300' ,'400', '500' , '600' , '700', '800' ]
 
 
 const Layout = ({children}) => {
-  return <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
+  return <div className={`page overflow-y-scroll bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
     <TopLeftImg/>
     <Header/>
     <Nav/>
