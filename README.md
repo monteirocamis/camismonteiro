@@ -6,7 +6,6 @@ my new portfolio page
 ###  - Last screenshot
 
 ![Screenshot 2023-09-14 at 01 29 07](https://github.com/monteirocamis/camismonteiro/assets/26682838/701cedaf-6869-4831-a274-df931088e841)
-![Screenshot 2023-09-14 at 01 29 27](https://github.com/monteirocamis/camismonteiro/assets/26682838/149be096-d273-497f-a5e1-177c154ef227)
 
 ___
 
