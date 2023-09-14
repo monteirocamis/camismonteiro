@@ -4,10 +4,9 @@ my new portfolio page
 
 
 ###  - Last screenshot
-![Screenshot 2023-09-13 at 02 43 37](https://github.com/monteirocamis/camismonteiro/assets/26682838/22eeb48a-352e-4fc3-a0a2-d2fc3718c0c0)
 
-
-
+![Screenshot 2023-09-14 at 01 29 07](https://github.com/monteirocamis/camismonteiro/assets/26682838/701cedaf-6869-4831-a274-df931088e841)
+![Screenshot 2023-09-14 at 01 29 27](https://github.com/monteirocamis/camismonteiro/assets/26682838/149be096-d273-497f-a5e1-177c154ef227)
 
 ___
 
@@ -46,7 +45,7 @@ Deploy de build automático e gratuito para visualização do projeto pela Verce
 * [React e Typescript](http:///) - O framework web usado
 * [Next]() - Developmnt environment
 * [Tailwind]() - Usada para gerar componentes pré estilizados
-* [tsparticles]() - Usada para gerar componentes animados
+* [tsparticles](https://github.com/tsparticles/tsparticles) - Usada para gerar componentes animados
 
 
 ## ✒️ Autores
