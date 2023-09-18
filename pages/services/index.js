@@ -37,9 +37,8 @@ const Services = () => {
                 exit="hidden"
                 className="mb-4 max-w-[400px]  "
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Facilis error repudiandae soluta recusandae qui architecto neque
-                atque iusto perferendis numquam.
+                Explore My Diverse Professional Expertise
+Discover comprehensive insights into my professional domains.
               </motion.p>
             </div>
 
