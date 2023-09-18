@@ -18,7 +18,6 @@ export const navData = [
   { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiViewColumns /> },
   // { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
-
   // { name: "work", path: "/work", icon: <HiViewColumns /> },
 // {
 //     name: "testimonials",
