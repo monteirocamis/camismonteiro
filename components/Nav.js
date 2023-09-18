@@ -15,10 +15,10 @@ import { useRouter } from "next/router";
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
-  { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiRectangleGroup /> },
+  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
+  { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiViewColumns /> },
+  // { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
 
-  // { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   // { name: "work", path: "/work", icon: <HiViewColumns /> },
 // {
 //     name: "testimonials",
@@ -50,7 +50,6 @@ const Nav = () => {
               } relative flex items-center group hover:text-accent transition-all duration-300`}
               href={link.path}
               key={index}
-              target="blank"
             >
               <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
                 <div className="bg-white relative flex text-primary items-center p-[6px] rounded-[3px]">
