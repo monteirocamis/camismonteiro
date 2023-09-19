@@ -20,7 +20,7 @@ export const navData = [
   { name: "services", path: "/services", icon: <HiViewColumns /> },
   { name: "work", path: "/work", icon: <HiRectangleGroup  /> },
   { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiNewspaper /> },
-  { name: "More Projects", path: "https://devcamis.vercel.app/", icon: <HiSquare3Stack3D /> },
+  { name: "More Projects", path: "https://devcamis.vercel.app/", icon: <HiSquare3Stack3D />  },
 // {
 //     name: "testimonials",
 //     path: "/testimonials",
