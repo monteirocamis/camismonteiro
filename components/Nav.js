@@ -6,6 +6,7 @@ import {
   HiRectangleGroup,
   HiChatBubbleBottomCenterText,
   HiEnvelope,
+  HiNewspaper,
 } from "react-icons/hi2";
 import Link from "next/link";
 import {} from "next/router";
@@ -15,10 +16,10 @@ import { useRouter } from "next/router";
 export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiViewColumns /> },
+  { name: "services", path: "/services", icon: <HiViewColumns /> },
+  { name: "work", path: "/work", icon: <HiRectangleGroup  /> },
+  { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiNewspaper /> },
   // { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
-  // { name: "work", path: "/work", icon: <HiViewColumns /> },
 // {
 //     name: "testimonials",
 //     path: "/testimonials",
