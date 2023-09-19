@@ -7,6 +7,7 @@ import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
   HiNewspaper,
+  HiSquare3Stack3D,
 } from "react-icons/hi2";
 import Link from "next/link";
 import {} from "next/router";
@@ -19,7 +20,7 @@ export const navData = [
   { name: "services", path: "/services", icon: <HiViewColumns /> },
   { name: "work", path: "/work", icon: <HiRectangleGroup  /> },
   { name: "CV - Resume", path: "https://devcamis.vercel.app/projetos/cvcamilamonteiro.html", icon: <HiNewspaper /> },
-  // { name: "Projects", path: "https://devcamis.vercel.app/", icon: <HiViewColumns /> },
+  { name: "More Projects", path: "https://devcamis.vercel.app/", icon: <HiSquare3Stack3D /> },
 // {
 //     name: "testimonials",
 //     path: "/testimonials",
