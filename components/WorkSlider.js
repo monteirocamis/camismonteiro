@@ -43,7 +43,7 @@ export const workSlidesItems = {
         {
           title: "Game Baloon",
           path: "/gamebaloon.png",
-          link: ""
+          link: "https://game-balao-udemy-o7l5.vercel.app"
         },
         // {
           //   title: "Openframeworks",
@@ -67,7 +67,7 @@ const WorkSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={Pagination}
+      modules={[Pagination]}
       className="h-[280px] sm:h-[480px]"
     >
       {workSlidesItems.slides.map((slide, index) => {
@@ -84,6 +84,7 @@ const WorkSlider = () => {
                         height={300}
                         alt="images from websites and apps"
                       />
+                      <Link href={image.link}>
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#4a22bd]  to-[#e838cc] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-x-20 transition-all duration-300">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
@@ -97,6 +98,7 @@ const WorkSlider = () => {
                           </div>
                         </div>
                       </div>
+                      </Link>
                     </div>
                   </div>
                 );
