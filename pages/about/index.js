@@ -6,9 +6,8 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaUnity,
   FaBlender,
-  FaAndroid,
-  FaDocker,
 } from "react-icons/fa";
 
 import { SiNextdotjs, SiAdobephotoshop } from "react-icons/si";
@@ -18,22 +17,20 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Development",
         icons: [
+          <FaUnity />,
+          <FaJs />,
           <FaHtml5 />,
           <FaCss3 />,
-          <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-
           <FaWordpress />,
-          <FaAndroid />,
-          <FaDocker />,
         ],
       },
       {
-        title: "3D artist",
-        icons: [<FaFigma />, <FaBlender />, <SiAdobephotoshop />],
+        title: "3D art",
+        icons: [<FaFigma />, , <SiAdobephotoshop />, "Blender ", "Fusion"],
       },
     ],
   },
@@ -42,25 +39,28 @@ const aboutData = [
     title: "experience",
     info: [
       {
+        title: "3D Printing services - NewSew 3D , Self-employment",
+        stage: "Sep 2023 - Present ",
+      },
+      {
+        title: " 3D modeling online classes  - NewSew 3D, Freelancer projects",
+        stage: "March 2024 - Present ",
+      },
+      {
+        title: "Web Developer - Codivas, Freelancer projects",
+        stage: "2020 - 2024",
+      },
+      {
         title: "Front end Developer - Poliedro",
         stage: "Feb 2023 - Aug 2023 ",
       },
       {
-        title: "Intern - Avanade",
+        title: "Intern Full-stack development- Avanade",
         stage: "2022 - 2023",
-      },
-      {
-        title: "Web Developer - Codivas",
-        stage: "2020 - 2022",
       },
       {
         title: "Web development Instructor - Labenu",
         stage: "Aug 2021 - Sep 2022",
-      },
-     
-      {
-        title: "Javascript Course Instructor - Reprograma",
-        stage: "Aug 2023 - Sep 2023",
       },
     ],
   },
@@ -68,16 +68,20 @@ const aboutData = [
     title: "education",
     info: [
       {
-        title: "Computer Science , Bachelor - Anhembi Morumbi",
-        stage: "2021 - 2024",
+        title: "Game development , Bachelor - Uninter (EAD)",
+        stage: "2023 - 2025",
       },
       {
-        title: "Web Development - FIAP,  São Paulo, SP",
-        stage: "2011",
+        title: "Computer Science , Bachelor - Anhembi Morumbi(EAD)",
+        stage: "2021 - 2025",
       },
       {
         title: "Front end Developer - Reprograma, São Paulo, SP",
-        stage: "2006",
+        stage: "2017",
+      },
+      {
+        title: "Hospitality , Bachelor - SENAC, Campos do Jordão, SP",
+        stage: "2008 - 2009",
       },
     ],
   },
@@ -85,26 +89,41 @@ const aboutData = [
     title: "others",
     info: [
       {
-        title: "Speaker - Front in Vale ",
-        stage: "2023",
+        title: "Academic research - Software , Uninter",
+        stage: "2024 ",
+      },
+      {
+        title:
+          "Academic research - Sustainable Filaments - University of São Paulo & Cietec/IPEN",
+        stage: "2024 ",
+      },
+      {
+        title: "Academic research - Software and IoT , Anhembi Morumbi",
+        stage: "2023 ",
+      },
+      {
+        title: "Speaker - Google Women Tech Ambassator  ",
+        stage: "2023 - present",
       },
       {
         title: "Speaker - Women in 3D printing - São Paulo ",
         stage: "2023",
       },
+
       {
-        title: "Exibition - Fashion 3D printing at Campus Party Brasil - São Paulo ",
+        title: "Advanced Game development Bursary - CNB Academy",
         stage: "2023",
       },
       {
-        title: "Advanced Game development Bursary - Bow Valew College & CEA",
-        stage: "2022",
+        title:
+          "Fashion design - Summer intensive course - Parsons The new School of Design - NYC",
+        stage: "2013",
       },
       {
-        title: "SESI moda sustentável - Sustainable Fashion design",
-        stage: "2011",
+        title:
+          "Business English - Summer intensive course - University of California,Irvine",
+        stage: "2013",
       },
-   
     ],
   },
 ];
@@ -130,9 +149,8 @@ const About = () => {
         animate="show"
         exit="hidden "
         // transition={{ duration: 1, ease: "easeInOut" }}
-        // removi  
+        // removi
         className="hidden max-w-[380px] xl:flex absolute  bottom-0 "
-    
       >
         <Avatar />
       </motion.div>
@@ -148,8 +166,8 @@ const About = () => {
             exit="hidden "
             className="h2"
           >
-            Transforming ideas <br/> into <span className="text-accent"> reality</span> 
-     
+            Transforming ideas <br /> into{" "}
+            <span className="text-accent"> reality</span>
           </motion.h2>
 
           <motion.p
@@ -159,9 +177,10 @@ const About = () => {
             exit="hidden "
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            3 years ago, I began freelancing as a developer. Since then , I've
-            done remote work for agencies, counsulted for startups,mentored lots of women in tecnology, and
-            collaborated on digital products for business and consumer use.
+            4 years ago, I began freelancing as a developer. Since then , I've
+            done remote work for agencies, counsulted for startups,mentored lots
+            of women in tecnology, and collaborated on digital products for
+            business and consumer use.
           </motion.p>
 
           {/* counters */}
@@ -188,14 +207,14 @@ const About = () => {
                   <CountUp start={0} end={20} duration={7} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients
+                  Mundial Clients
                 </div>
               </div>
 
               {/* projects  */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={32} duration={7} /> +
+                  <CountUp start={0} end={35} duration={7} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
@@ -234,7 +253,7 @@ const About = () => {
 
           {/*  conteudo tabs */}
           {/* removi bg-pink-400/10 */}
-          <div className=" py-2 xl:py-6 flex  flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start mb-20">
+          <div className=" py-20 xl:py-6 flex   flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start mb-20 ">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div

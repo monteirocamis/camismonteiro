@@ -4,12 +4,12 @@ const Avatar = () => {
   return (
     <div className=" xl-flex xl:max-w-none">
       <Image
-      //removed hidden
+        //removed hidden
         className=" translate-z-0 w-full h-full"
-        src={'/camis.png'}
+        src={"/camis.png"}
         width={737}
         height={678}
-        alt="image of a girl, in a jacket ,  with glasses smiling "
+        alt="image of a girl, in a black blouse , pony hair and smiling "
       />
     </div>
   );

@@ -17,8 +17,7 @@ const Home = () => {
             exit="hidden"
             className="h2 mt-10"
           >
-
-            <span className="">  Camila</span> Monteiro
+            <span className=""> Camila</span> Monteiro
           </motion.h2>
 
           <motion.p
@@ -31,9 +30,8 @@ const Home = () => {
             A versatile and innovative professional, able to work with different
             languages and frameworks. With over 4 years of experience as a
             frontend developer.
-          
             <br /> Skills in 3D modeling,communication, and leadership.
-            <br />    <br />
+            <br /> <br />
             Believes in technologies to provide better quality of life for
             people through creative and impactful solutions.
           </motion.p>
@@ -47,14 +45,12 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-    
           >
             <ProjectsBtn />
           </motion.div>
         </div>
       </div>
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
-
         {/* bg image */}
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
 
@@ -67,7 +63,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[768px] absolute -bottom-32 lg:bottom-0 lg:right-[5%]"
+          className="w-full max-w-[737px] max-h-[768px] absolute -bottom-1 lg:bottom-0 lg:left-[20%]"
         >
           <Avatar />
         </motion.div>
