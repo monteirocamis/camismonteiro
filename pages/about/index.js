@@ -29,7 +29,7 @@ const aboutData = [
         ],
       },
       {
-        title: "3D artist",
+        title: "3D art",
         icons: [<FaFigma />, , <SiAdobephotoshop />, "Blender ", "Fusion"],
       },
     ],
@@ -253,7 +253,7 @@ const About = () => {
 
           {/*  conteudo tabs */}
           {/* removi bg-pink-400/10 */}
-          <div className=" py-2 xl:py-6 flex  flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start mb-20">
+          <div className=" py-20 xl:py-6 flex   flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start mb-20 ">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
