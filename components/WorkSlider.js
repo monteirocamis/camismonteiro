@@ -12,6 +12,11 @@ export const workSlidesItems = {
     {
       images: [
         {
+          title: "SteamPunkCamera Web AR - AR only mobile ",
+          path: "/camera.png",
+          link: "https://steampunkcamera.vercel.app/",
+        },
+        {
           title: "Embraer Gama academy presentation - Group 7",
           path: "/embraer.png",
           link: "https://gama-group7.vercel.app/",
@@ -26,16 +31,15 @@ export const workSlidesItems = {
           path: "/dino.png",
           link: "https://dino-game-pi.vercel.app/",
         },
-
+      ],
+    },
+    {
+      images: [
         {
           title: "Store",
           path: "/visie.png",
           link: "https:storevisie.vercel.app",
         },
-      ],
-    },
-    {
-      images: [
         {
           title: "Multiform",
           path: "/form1.png",
@@ -51,16 +55,16 @@ export const workSlidesItems = {
           path: "/whatslabe.png",
           link: "https://whatslabe.vercel.app",
         },
-        {
-          title: "InstaLab",
-          path: "/instalab.png",
-          link: "https://instalabhooks.vercel.app/",
-        },
         // },
       ],
     },
     {
       images: [
+        {
+          title: "InstaLab",
+          path: "/instalab.png",
+          link: "https://instalabhooks.vercel.app/",
+        },
         // {
         //   title: "Multiform",
         //   path: "/form1.png",
